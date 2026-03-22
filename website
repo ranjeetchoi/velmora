@@ -115,7 +115,7 @@
 
     <div class="products">
         <div class="product-card">
-            <img src="product.png" alt="Shuddhi Detox Kahwa">
+            <img src="images/product.png" alt="Shuddhi Detox Kahwa" loading="lazy">
 
             <h3>Shuddhi Detox Kahwa Green Tea</h3>
             <p>
