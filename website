@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velmora Naturals</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5fbf9;
+        }
+
+        header {
+            background-color: #87CEEB;
+            padding: 15px;
+            text-align: center;
+            color: #2f4f4f;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #2f4f4f;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: #e6f7f5;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .product-card {
+            background: white;
+            padding: 20px;
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product-card h3 {
+            margin-top: 15px;
+        }
+
+        .product-card p {
+            color: #555;
+        }
+
+        .buy-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #2f4f4f;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #87CEEB;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Velmora Naturals 🌿</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h1>Shuddhi Detox Kahwa</h1>
+    <p>Made with authentic Kashmiri & Ayurvedic spices</p>
+</section>
+
+<section class="section" id="products">
+    <h2>Featured Product</h2>
+
+    <div class="products">
+        <div class="product-card">
+            <img src="product.png" alt="Shuddhi Detox Kahwa">
+
+            <h3>Shuddhi Detox Kahwa Green Tea</h3>
+            <p>
+                A powerful blend of green tea, tulsi, ginger, cinnamon, and spices 
+                designed to detox your body and boost immunity.
+            </p>
+
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="about">
+    <h2>About Us</h2>
+    <p>
+        Velmora Naturals creates premium herbal blends inspired by Ayurveda 
+        to support a healthy and natural lifestyle.
+    </p>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: velmora@gmail.com</p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+</section>
+
+<footer>
+    <p>© 2026 Velmora Naturals. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
